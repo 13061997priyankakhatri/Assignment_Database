@@ -47,4 +47,4 @@ select * from SalsPerson where CITY = "London" or "Barcelona" ; /*All salespeopl
 
 select * from SalsPerson where COMM between .1 and .12; /*All salespeople with commission between 0.10 and 0.12. (Boundary values should be excluded). */
 
-select * from Customer where RATING <= 100 and CITY = "Roe"; /*All customers excluding those with rating <= 100 unless they are located in Rome*/
+select * from Customer where RATING <= 100 and CITY = "Roe"; /*All customers excluding those with rating <= 100 unless they are located in Roe*/
